@@ -1,10 +1,7 @@
+const myButton = document.querySelector('.skills');
 
+myButton.addEventListener("click", function () {
+  window.location.href = "/skills.html";
+});
 
-console.log(' i am that nigga');
-
-var a = 12;
-var b = 'i touched '
-var c = 'kids'
-
-console.log(b,a,c);
-
+console.log('i work')
