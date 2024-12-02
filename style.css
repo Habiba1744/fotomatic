@@ -1,145 +1,119 @@
-body{
-    background-image: url('cool background.jpg') ;
-    background-size: cover;
-        width: 100%;
-        height: 1200px;
-    
+body {
+  background-image: url("cool background.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
-
-header h1{
-    text-align: center;
-    font-size: 4rem;
-    font-family:'Crimson Pro',
-        serif;
+header h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Crimson Pro", serif;
 }
 
-.profile{
-
+.profile {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 50vh;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-
-
-.intro{
-    width:70%;
-    font: 2em 'Crimson Pro',
-        serif;
-    color: black;
-    padding-top: 3rem;
-    margin: auto 0;
-    display: inline-block;
-    }
-
-.intro-div{
-    width: 100%;
-    text-align: center;
+.intro {
+  width: 70%;
+  font: 1.8em "Crimson Pro", serif;
+  color: black;
+  padding-top: 3rem;
+  margin: auto 0;
+  display: inline-block;
 }
 
-
-.buttons{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-skills{
-    background-color: lightslategrey;
-    border-radius: 6rem;
-    height: 5rem;
-    margin: 0 2rem;
-    width: 20rem;
+.intro-div {
+  width: 100%;
+  text-align: center;
 }
 
- 
- projects{
-     background-color: lightslategrey;
-     border-radius: 6rem;
-     height: 5rem;
-    margin: 0 2rem;
-     width: 20rem;
- }
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
- 
- cv {
-     background-color: lightslategrey;
-     border-radius: 6rem;
-     height: 5rem;
-    margin: 0 2rem;
-     width: 20rem;
+projects {
+  background-color: lightslategrey;
+  border-radius: 6rem;
+  height: 5rem;
+  margin: 0 2rem;
+  width: 20rem;
+}
 
-     
- }
- .buttons h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+cv {
+  background-color: lightslategrey;
+  border-radius: 6rem;
+  height: 5rem;
+  margin: 0 2rem;
+  width: 20rem;
+}
+.buttons {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
- 
+/* CSS */
+.cv,
+.portfolio {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  /* font-size: 1.2rem; */
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  /* padding: 1rem 1.3rem; */
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 2rem;
+  width: 17rem;
+}
 
+.cv:hover {
+  background-color: lightgrey;
+  box-shadow: lightslategrey 0 -6px 8px inset;
+  transform: scale(1.125);
+}
 
- /* CSS */
- .cv,.projects, .skills {
-     appearance: none;
-     background-color: #FFFFFF;
-     border-radius: 40em;
-     border-style: none;
-     box-shadow: #ADCFFF 0 -12px 6px inset;
-     box-sizing: border-box;
-     color: #000000;
-     cursor: pointer;
-     display: inline-block;
-     font-family: -apple-system, sans-serif;
-     font-size: 1.2rem;
-     font-weight: 700;
-     letter-spacing: -.24px;
-     margin: 0;
-     outline: none;
-     padding: 1rem 1.3rem;
-     quotes: auto;
-     text-align: center;
-     text-decoration: none;
-     transition: all .15s;
-     user-select: none;
-     -webkit-user-select: none;
-     touch-action: manipulation;
-    margin: 0 2rem;
-    width: 20rem;
- }
+.portfolio:hover {
+  background-color: lightgrey;
+  box-shadow: lightslategrey 0 -6px 8px inset;
+  transform: scale(1.125);
+}
 
- .cv:hover {
-     background-color: lightgrey;
-     box-shadow: lightslategrey 0 -6px 8px inset;
-     transform: scale(1.125);
- }
- 
- .skills:hover {
-     background-color: lightgrey;
-     box-shadow: lightslategrey 0 -6px 8px inset;
-     transform: scale(1.125);
- }
- .projects:hover {
-     background-color: lightgrey;
-     box-shadow: lightslategrey 0 -6px 8px inset;
-     transform: scale(1.125);
- }
+.cv,
+.portfolio:active {
+  transform: scale(1.025);
+}
 
- .cv, .projects, .skills:active {
-     transform: scale(1.025);
- }
-
- @media (min-width: 768px) {
-     .cv,.projects, .skills {
-         font-size: 1.5rem;
-         padding: .75rem 2rem;
-     }
- }
-  
-
-   
+@media (min-width: 768px) {
+  .cv,
+  .portfolio {
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+  }
+}

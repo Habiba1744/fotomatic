@@ -1,7 +1,13 @@
-const myButton = document.querySelector('.skills');
+const myButton = document.querySelector(".cv");
+const portfolioButton = document.querySelector(".portfolio");
 
 myButton.addEventListener("click", function () {
-  window.location.href = "/skills.html";
+  window.location.href =
+    "https://docs.google.com/document/d/1BWyh6e1umMDoW9WNgcDDZT1Nn_uriEXmDYtQBuNr3JY/edit?usp=sharing";
 });
 
-console.log('i work')
+portfolioButton.addEventListener("click", function () {
+  window.location.href = "https://youtu.be/HfWLgELllZs?si=UkbhHfC74ZxdfPse"; //change the Link here with your behance link
+});
+
+console.log("i work");
