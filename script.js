@@ -7,7 +7,7 @@ myButton.addEventListener("click", function () {
 });
 
 portfolioButton.addEventListener("click", function () {
-  window.location.href = "https://youtu.be/HfWLgELllZs?si=UkbhHfC74ZxdfPse"; //change the Link here with your behance link
+  window.location.href = "https://www.behance.net/habibasalah7"; //change the Link here with your behance link
 });
 
 console.log("i work");
